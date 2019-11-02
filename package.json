@@ -1,0 +1,19 @@
+{
+  "name": "ttusi-cafe",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gatsby-cli": "^2.8.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@iz4blue.github.com:iz4blue/ttusi-cafe.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
