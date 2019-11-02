@@ -1,19 +1,30 @@
 {
-  "name": "ttusi-cafe",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "gatsby-cli": "^2.8.8"
-  },
-  "devDependencies": {},
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.17.6",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
   },
   "repository": {
     "type": "git",
-    "url": "git@iz4blue.github.com:iz4blue/ttusi-cafe.git"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
   },
-  "author": "",
-  "license": "ISC"
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
 }
