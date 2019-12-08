@@ -1,9 +1,12 @@
 import React from "react"
+import SmallWide from "../components/item/small-wide"
 
 const AboutPage = () => (
     <main>
-      <h1>About the Author</h1>
-      <p>Welcome to my Gatsby site.</p>
+      <div>
+        <SmallWide/>
+        <SmallWide/>
+      </div>
     </main>
 );
 export default AboutPage
