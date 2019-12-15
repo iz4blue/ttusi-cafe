@@ -1,14 +1,23 @@
 import React from "react"
 import SmallWide from "../components/item/small-wide"
+import Header from "../components/layout-header"
+import SubNav from "../components/layout-sub_nav"
+import Section from "../components/layout-section"
+import Footer from "../components/layout-footer"
 
-const AboutPage = () => (
+export default () => (
     <main>
-      <div>
-        <SmallWide categoryText="Hot Coffees"/>
-        <SmallWide categoryText="Hot Teas"/>
-        <SmallWide categoryText="Hot Drinks"/>
-        <SmallWide categoryText="Frappuccino® Blended Beverages"/>
-      </div>
+      <Header>
+
+      </Header>
+      <Section>
+        <SubNav>
+
+        </SubNav>
+      </Section>
+      <Footer>
+
+      </Footer>
     </main>
 );
-export default AboutPage
+
