@@ -7,17 +7,11 @@ import "components/global/global.css"
 
 export default () => (
     <main>
-      <Header>
-
-      </Header>
+      <Header />
       <Section>
-        <SubNav>
-
-        </SubNav>
+        <SubNav />
+        <IndexRoot />
       </Section>
-      <Footer>
-
-      </Footer>
+      <Footer />
     </main>
 );
-
