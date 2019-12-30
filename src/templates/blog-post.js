@@ -4,6 +4,8 @@ import Layout from "components/layout-section"
 
 export default ({ data }) => {
   const post = data.markdownRemark
+  console.log(data)
+
   return (
     <Layout>
       <div>
