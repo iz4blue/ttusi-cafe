@@ -1,8 +1,8 @@
-import React from "react"
+import React from 'react'
 
 export default ({ children }) => (
-    <footer>
-      {children}
-      <h1>footer</h1>
-    </footer>
+  <footer>
+    {children}
+    <h1>footer</h1>
+  </footer>
 )

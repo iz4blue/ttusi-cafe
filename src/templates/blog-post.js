@@ -1,10 +1,10 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from "components/layout-section"
+import Layout from 'components/layout-section'
 
-export default ({ data }) => {
-  const post = data.markdownRemark
-  console.log(data)
+export default pros => {
+  const post = pros.data.markdownRemark
+  console.log(pros)
 
   return (
     <Layout>
