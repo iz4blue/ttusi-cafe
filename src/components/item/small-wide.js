@@ -1,5 +1,5 @@
-import React from 'react'
-import icon from 'asset-image/hot_coffee.webp'
+import React from 'react';
+import icon from 'asset-image/hot_coffee.webp';
 
 export default props => (
   <div>
@@ -10,4 +10,4 @@ export default props => (
       <h3>{props.categoryText}</h3>
     </div>
   </div>
-)
+);

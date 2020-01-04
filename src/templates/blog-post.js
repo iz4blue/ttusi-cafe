@@ -1,10 +1,10 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from 'components/layout-section'
+import React from "react";
+import { graphql } from "gatsby";
+import Layout from 'components/layout-section';
 
 export default pros => {
-  const post = pros.data.markdownRemark
-  console.log(pros)
+  const post = pros.data.markdownRemark;
+  console.log(pros);
 
   return (
     <Layout>
@@ -14,8 +14,8 @@ export default pros => {
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
-  )
-}
+  );
+};
 
 export const query = graphql`
   query($slug: String!) {
@@ -28,4 +28,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

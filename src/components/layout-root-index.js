@@ -1,5 +1,5 @@
-import React from 'react'
-import SmallWide from './item/small-wide'
+import React from 'react';
+import SmallWide from './item/small-wide';
 
 export default () => (
   <div>
@@ -8,4 +8,4 @@ export default () => (
     <SmallWide categoryText="Hot Drinks"/>
     <SmallWide categoryText="Frappuccino® Blended Beverages"/>
   </div>
-)
+);
