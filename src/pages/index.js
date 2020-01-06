@@ -1,9 +1,18 @@
-import React from "react"
+import React from 'react';
+import Header from 'components/layout-header';
+import SubNav from 'components/layout-sub_nav';
+import Section from 'components/layout-section';
+import IndexRoot from 'components/layout-root-index';
+import Footer from 'components/layout-footer';
+import 'components/global/global.css';
 
-const AboutPage = () => (
-    <main>
-      <h1>About the Author</h1>
-      <p>Welcome to my Gatsby site.</p>
-    </main>
+export default () => (
+  <main>
+    <Header />
+    <Section>
+      <SubNav />
+      <IndexRoot />
+    </Section>
+    <Footer />
+  </main>
 );
-export default AboutPage
